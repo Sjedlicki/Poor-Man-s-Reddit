@@ -5,8 +5,8 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -20,7 +20,7 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    /*max-width: 280px;*/
 }
 
 .iCbvoa {
@@ -72,4 +72,27 @@ textarea {
     transform: translate(-50%, -50%);
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.Reddit {
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 600px;
+    background-color: lightblue;
+    border: 20px solid black;
+    border-radius: 10px;
+}
+
+.heads {
+    color: black;
+    text-shadow: 2px 2px 2px ghostwhite;
+}
+
+.pics {
+    display: block;
+    max-width: 100%;
+    position:relative;
 }
