@@ -1,0 +1,18 @@
+﻿<h2>r/aww</h2>
+
+<div id="TEST" class="table" style="padding-top:20px; padding: 20px; text-align:center;">
+@for (int i = 0; i < 10; i++)
+{
+    <div class="table" id="Reddit" style="padding-top: 50px; padding-bottom: 50px; padding-right:300px;">
+        <ul>
+            <li>
+                <p style="width: 500px;">@ViewBag.Titled[i]</p>
+                <picture style="width: auto;">
+                    <img src="@ViewBag.Thumbs[i]" /><br />
+                </picture>
+                <a href="@ViewBag.URL[i]">@ViewBag.URL[i]</a>
+            </li>
+        </ul>
+    </div>
+}
+</div>
