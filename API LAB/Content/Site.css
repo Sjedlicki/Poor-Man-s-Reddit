@@ -22,3 +22,54 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.iCbvoa {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    padding: 0px;
+}
+
+.dCXXrg {
+    display: block;
+    flex-direction: row;
+    height: 164px;
+    min-width: 260px;
+    background: url(https://styles.redditmedia.com/t5_2qh1o/styles/bannerBackgroundImage_wmbf6g1dei301.png) center top / cover no-repeat rgb(153, 153, 153);
+    background-position: center top;
+    margin: 0px auto;
+}
+
+.jDJmGa {
+    text-decoration: none;
+}
+
+.xEEFg {
+    height: 100%;
+    position: relative;
+    transform: translateY(-18px);
+    margin: auto;
+}
+
+.hLkSVI {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 40;
+}
+
+.bnHVsB {
+    width: 512px;
+    height: 112px;
+    background-size: auto;
+    top: 50%;
+    position: absolute;
+    background-image: url(https://styles.redditmedia.com/t5_2qh1o/styles/bannerPositionedImage_my2oks8o5x821.png);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center center;
+    background-repeat: no-repeat;
+}

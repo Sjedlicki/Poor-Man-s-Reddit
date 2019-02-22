@@ -1,18 +1,29 @@
-﻿<h2>r/aww</h2>
+﻿
+<div class="s7pq5uy-2 iCbvoa">
+    <a class="ssdjlj-8 dCXXrg ssdjlj-7 jDJmGa" href="/r/aww">
+        <div class="ssdjlj-4 xEEFg" style="max-width:1200px">
+            <div class="ssdjlj-3 hLkSVI"></div>
+            <div class="ssdjlj-2 bnHVsB"></div>
+        </div>
+    </a>
+    @*<div class="s1s4hmd1-0 kMVODC">
+    <div class="s1s4hmd1-1 ixOlPy" style="max-width:1200px">
+        <div><a class="s8ofjbx-2 eEsgJk" href="/r/aww">Posts</a><a class="s8ofjbx-2 iuoRqx" href="https://www.reddit.com/r/aww/wiki/index">Rules</a><a class="s8ofjbx-2 iuoRqx" href="https://www.reddit.com/r/aww/wiki/relatedsubreddits">Related Subreddits</a><a class="s8ofjbx-2 iuoRqx" href="https://discord.gg/E6FvsBT">Discord</a></div></div></div></div>*@
 
-<div id="TEST" class="table" style="padding-top:20px; padding: 20px; text-align:center;">
-@for (int i = 0; i < 10; i++)
-{
-    <div class="table" id="Reddit" style="padding-top: 50px; padding-bottom: 50px; padding-right:300px;">
-        <ul>
-            <li>
-                <p style="width: 500px;">@ViewBag.Titled[i]</p>
-                <picture style="width: auto;">
-                    <img src="@ViewBag.Thumbs[i]" /><br />
-                </picture>
-                <a href="@ViewBag.URL[i]">@ViewBag.URL[i]</a>
-            </li>
-        </ul>
-    </div>
-}
+<div id="TEST" style="padding-top:20px; padding: 20px; text-align:center;">
+    @for (int i = 0; i < 10; i++)
+    {
+        <div id="Reddit" style="display: block; padding-top: 50px; padding-bottom: 50px; width: 600px;">
+
+
+            <h4 style="background-color: darkgray;">@ViewBag.Titled[i]</h4>
+            <picture style="width: auto;">
+                <img src="@ViewBag.Thumbs[i]" />
+                <br />
+            </picture>
+            <a href="@ViewBag.URL[i]">@ViewBag.URL[i]</a>
+
+
+        </div>
+    }
 </div>
